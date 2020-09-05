@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f2e0209-d515-4eb9-8d15-d8c71024c3c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/socket_framework.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/demo.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/demo.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/C.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/accepter.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/buffer.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/channel.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/channel_map.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/event_loop.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/event_loop_thread.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/poll_dispatcher.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/tcp_connection.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/tcp_server.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/thread_pool.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/lib.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libNetwork_framework.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/socket_framework" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/socket_framework.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/accepter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/accepter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/buffer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/channel.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/channel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/channel_map.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/channel_map.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/event_dispatcher.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/event_loop.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/event_loop.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/event_loop_thread.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/event_loop_thread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/poll_dispatcher.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tcp_connection.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tcp_connection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tcp_server.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tcp_server.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/thread_pool.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/thread_pool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-lib" />
+  </component>
+  <component name="ProjectId" id="1gVRWUUR5Cdn1TqEgp9CTzSIurP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f2e0209-d515-4eb9-8d15-d8c71024c3c4" name="Default Changelist" comment="" />
+      <created>1598197804128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598197804128</updated>
+      <workItem from="1598197805415" duration="5156000" />
+      <workItem from="1598362864003" duration="1122000" />
+      <workItem from="1599008420204" duration="3433000" />
+      <workItem from="1599291136759" duration="2912000" />
+      <workItem from="1599295677234" duration="118000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="316" y="113" key="#SSH_Configurations" timestamp="1598197846947">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state x="316" y="113" key="#SSH_Configurations/25.23.1415.877@25.23.1415.877" timestamp="1598197846947" />
+    <state width="492" height="466" key="DebuggerActiveHint" timestamp="1599292802267">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="492" height="466" key="DebuggerActiveHint/25.23.1415.877@25.23.1415.877" timestamp="1599292802267" />
+    <state x="125" y="123" width="1215" height="677" key="DiffContextDialog" timestamp="1599011851001">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state x="125" y="123" width="1215" height="677" key="DiffContextDialog/25.23.1415.877@25.23.1415.877" timestamp="1599011851001" />
+    <state width="1373" height="174" key="GridCell.Tab.0.bottom" timestamp="1599295805045">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="174" key="GridCell.Tab.0.bottom/25.23.1415.877@25.23.1415.877" timestamp="1599295805045" />
+    <state width="1373" height="174" key="GridCell.Tab.0.center" timestamp="1599295805044">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="174" key="GridCell.Tab.0.center/25.23.1415.877@25.23.1415.877" timestamp="1599295805044" />
+    <state width="1373" height="174" key="GridCell.Tab.0.left" timestamp="1599295805044">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="174" key="GridCell.Tab.0.left/25.23.1415.877@25.23.1415.877" timestamp="1599295805044" />
+    <state width="1373" height="174" key="GridCell.Tab.0.right" timestamp="1599295805045">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="174" key="GridCell.Tab.0.right/25.23.1415.877@25.23.1415.877" timestamp="1599295805045" />
+    <state width="1373" height="286" key="GridCell.Tab.1.bottom" timestamp="1599292930271">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="286" key="GridCell.Tab.1.bottom/25.23.1415.877@25.23.1415.877" timestamp="1599292930271" />
+    <state width="1373" height="286" key="GridCell.Tab.1.center" timestamp="1599292930271">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="286" key="GridCell.Tab.1.center/25.23.1415.877@25.23.1415.877" timestamp="1599292930271" />
+    <state width="1373" height="286" key="GridCell.Tab.1.left" timestamp="1599292930270">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="286" key="GridCell.Tab.1.left/25.23.1415.877@25.23.1415.877" timestamp="1599292930270" />
+    <state width="1373" height="286" key="GridCell.Tab.1.right" timestamp="1599292930271">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state width="1373" height="286" key="GridCell.Tab.1.right/25.23.1415.877@25.23.1415.877" timestamp="1599292930271" />
+    <state x="234" y="100" key="SettingsEditor" timestamp="1598197852481">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state x="234" y="100" key="SettingsEditor/25.23.1415.877@25.23.1415.877" timestamp="1598197852481" />
+    <state x="433" y="216" width="598" height="490" key="find.popup" timestamp="1599294178735">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state x="433" y="216" width="598" height="490" key="find.popup/25.23.1415.877@25.23.1415.877" timestamp="1599294178735" />
+    <state x="397" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599010063191">
+      <screen x="25" y="23" width="1415" height="877" />
+    </state>
+    <state x="397" y="213" width="670" height="676" key="search.everywhere.popup/25.23.1415.877@25.23.1415.877" timestamp="1599010063191" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/demo.c</url>
+          <line>33</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/lib/event_loop.c</url>
+          <line>168</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

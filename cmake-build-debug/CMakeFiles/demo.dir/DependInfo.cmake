@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/horson/Documents/V视频16/c++/socket_framework/demo.c" "/Users/horson/Documents/V视频16/c++/socket_framework/cmake-build-debug/CMakeFiles/demo.dir/demo.c.o"
+  "/Users/horson/Documents/tcpServer/demo.c" "/Users/horson/Documents/tcpServer/cmake-build-debug/CMakeFiles/demo.dir/demo.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -14,7 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/horson/Documents/V视频16/c++/socket_framework/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/DependInfo.cmake"
+  "/Users/horson/Documents/tcpServer/cmake-build-debug/lib/CMakeFiles/Network_framework.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
