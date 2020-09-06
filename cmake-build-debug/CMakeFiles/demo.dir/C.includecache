@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/horson/Documents/tcpServer/demo.c
+lib/event_loop.h
+/Users/horson/Documents/tcpServer/lib/event_loop.h
+lib/tcp_server.h
+/Users/horson/Documents/tcpServer/lib/tcp_server.h
+lib/common.h
+/Users/horson/Documents/tcpServer/lib/common.h
+lib/buffer.h
+/Users/horson/Documents/tcpServer/lib/buffer.h
+lib/tcp_connection.h
+/Users/horson/Documents/tcpServer/lib/tcp_connection.h
+
 /Users/horson/Documents/tcpServer/lib/accepter.h
 common.h
 /Users/horson/Documents/tcpServer/lib/common.h
@@ -82,25 +94,11 @@ event_dispatcher.h
 pthread.h
 -
 
-/Users/horson/Documents/tcpServer/lib/event_loop_thread.h
-pthread.h
--
-
 /Users/horson/Documents/tcpServer/lib/tcp_connection.h
 buffer.h
 /Users/horson/Documents/tcpServer/lib/buffer.h
 tcp_server.h
 /Users/horson/Documents/tcpServer/lib/tcp_server.h
-
-/Users/horson/Documents/tcpServer/lib/tcp_server.c
-common.h
-/Users/horson/Documents/tcpServer/lib/common.h
-tcp_server.h
-/Users/horson/Documents/tcpServer/lib/tcp_server.h
-thread_pool.h
-/Users/horson/Documents/tcpServer/lib/thread_pool.h
-tcp_connection.h
-/Users/horson/Documents/tcpServer/lib/tcp_connection.h
 
 /Users/horson/Documents/tcpServer/lib/tcp_server.h
 common.h
@@ -109,10 +107,4 @@ event_loop.h
 /Users/horson/Documents/tcpServer/lib/event_loop.h
 accepter.h
 /Users/horson/Documents/tcpServer/lib/accepter.h
-
-/Users/horson/Documents/tcpServer/lib/thread_pool.h
-event_loop.h
-/Users/horson/Documents/tcpServer/lib/event_loop.h
-event_loop_thread.h
-/Users/horson/Documents/tcpServer/lib/event_loop_thread.h
 

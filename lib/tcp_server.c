@@ -35,7 +35,11 @@ int handle_connection_established(void *data) {
     int listenfd = accepter->listen_fd;
     struct sockaddr_in client_addr;
     socklen_t client_len = sizeof(client_addr);
-    int connectfd = accept(listenfd, (struct sockaddr *)&client_addr, (socklen_t)client_len);
+    int connectfd = accept(listenfd, (struct sockaddr *)&client_addr, &client_len);
+    if (connectfd < 0) {
+        printf("accept failed fd: %d, error: %s\n", connectfd, strerror(errno));
+        return -1;
+    }
     fcntl(connectfd, F_SETFL, O_NONBLOCK);
     printf("established connection fd: %d\n", connectfd);
     struct event_loop *eventLoop = thread_pool_get_loop(tcpServer->threadPool);

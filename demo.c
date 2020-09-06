@@ -1,6 +1,8 @@
 #include "lib/event_loop.h"
 #include "lib/tcp_server.h"
 #include "lib/common.h"
+#include "lib/buffer.h"
+#include "lib/tcp_connection.h"
 
 int onConnectionCompleted(struct tcp_connection *tcpConnection) {
     printf("connection completed\n");
@@ -8,15 +10,12 @@ int onConnectionCompleted(struct tcp_connection *tcpConnection) {
 }
 
 int onMessage(struct buffer *input, struct tcp_connection *tcpConnection) {
-//    printf("get message from tcp connection %s\n", tcpConnection->name);
-//    printf("%s", input->data);
-//
-//    struct buffer *output = buffer_new();
-//    int size = buffer_readable_size(input);
-//    for (int i = 0; i < size; i++) {
-//        buffer_append_char(output, rot13_char(buffer_read_char(input)));
-//    }
-//    tcp_connection_send_buffer(tcpConnection, output);
+    printf("get message from tcp connection %s\n", tcpConnection->name);
+    printf("%s", input->data);
+
+    struct buffer *output = buffer_new();
+    int size = buffer_readable_size(input);
+    tcp_connection_send_buffer(tcpConnection, output);
     return 0;
 }
 

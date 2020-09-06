@@ -123,7 +123,7 @@ int poll_update(struct event_loop *eventLoop, struct channel *channel) {
 
 int poll_dispatch(struct event_loop *eventLoop, struct timeval *timeval) {
     struct poll_dispatcher_data *data = eventLoop->event_dispatcher_data;
-    int timewait = timeval->tv_sec * 1000;
+    int timewait = timeval->tv_sec * 1000 * 1000;
     int ready_num = poll(data->event_set, INIT_POLL_DATA_SIZE, timewait);
     if (ready_num < 0) {
         printf("poll error\n");
@@ -138,16 +138,16 @@ int poll_dispatch(struct event_loop *eventLoop, struct timeval *timeval) {
         if ((socket_fd = data->event_set[i].fd) < 0)
             continue;
 
-        if (data->event_set[socket_fd].revents > 0) {
-            if (data->event_set[socket_fd].revents & POLLRDNORM) {
+        if (data->event_set[i].revents > 0) {
+            if (data->event_set[i].revents & POLLRDNORM) {
                 channel_event_activate(eventLoop, socket_fd, EVENT_READ);
             }
 
-            if (data->event_set[socket_fd].events & POLLWRNORM) {
+            if (data->event_set[i].events & POLLWRNORM) {
                 channel_event_activate(eventLoop, socket_fd, EVENT_WRITE);
             }
+            if (--ready_num <= 0) break;
         }
-        if (--ready_num <= 0) break;
     }
 
 }
