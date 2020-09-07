@@ -11,6 +11,7 @@ struct buffer *buffer_new() {
     buffer->total_size = INIT_BUFFER_SIZE;
     buffer->readIndex = 0;
     buffer->writeIndex = 0;
+    return buffer;
 }
 
 int buffer_writeable_size(struct buffer *buffer) {
@@ -72,4 +73,5 @@ int buffer_socket_read(struct buffer *buffer, int fd) {
         buffer->writeIndex = buffer->total_size;
         buffer_append(buffer, additional_buffer, res - max_writeable);
     }
+    return res;
 }
