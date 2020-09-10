@@ -43,6 +43,7 @@ int handle_connection_established(void *data) {
     fcntl(connectfd, F_SETFL, O_NONBLOCK);
     printf("established connection fd: %d\n", connectfd);
     struct event_loop *eventLoop = thread_pool_get_loop(tcpServer->threadPool);
+
     struct tcp_connection *tcpConnection = tcp_connection_new(connectfd, eventLoop,
             tcpServer->connectionCompletedCallBack,
             tcpServer->connectionClosedCallBack,

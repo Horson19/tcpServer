@@ -177,7 +177,7 @@ struct event_loop *event_loop_init_with_name(char *thread_name) {
     eventLoop->pending_head = eventLoop->pending_tail = NULL;
     eventLoop->is_handle_pending = 0;
 
-    struct channel *channel = channel_new(eventLoop->socketPair[0], EVENT_READ, handle_wake_up, NULL, eventLoop);
+    struct channel *channel = channel_new(eventLoop->socketPair[1], EVENT_READ, handle_wake_up, NULL, eventLoop);
     event_loop_add_channel_event(eventLoop, eventLoop->socketPair[1], channel);
 
     return eventLoop;

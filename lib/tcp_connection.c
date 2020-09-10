@@ -88,7 +88,7 @@ int tcp_connection_send_data(struct tcp_connection *tcpConnection, void *data, i
     struct channel *channel = tcpConnection->channel;
     struct buffer *buffer = tcpConnection->output_buffer;
 
-    if (!channel_write_event_enable(channel) && buffer_readable_size(buffer) == 0) {
+    if (!channel_write_event_is_enable(channel) && buffer_readable_size(buffer) == 0) {
         nwrited = write(channel->fd, data, size);
         if (nwrited > 0) {
             nleft -= nwrited;

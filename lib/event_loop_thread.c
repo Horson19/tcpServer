@@ -34,10 +34,10 @@ int event_loop_thread_init(struct event_loop_thread *eventLoopThread, int i) {
 }
 
 struct event_loop *event_loop_thread_start(struct event_loop_thread *eventLoopThread) {
-    pthread_create(&eventLoopThread->thread_tid, NULL, event_loop_thread_run, eventLoopThread);
+    pthread_create(&eventLoopThread->thread_tid, NULL, &event_loop_thread_run, eventLoopThread);
     assert(pthread_mutex_lock(&eventLoopThread->mutex) == 0);
     while (eventLoopThread->eventLoop == NULL)
-        assert(pthread_cond_wait(&eventLoopThread->cond, &eventLoopThread->mutex));
+        assert(pthread_cond_wait(&eventLoopThread->cond, &eventLoopThread->mutex) == 0);
 
     assert(pthread_mutex_unlock(&eventLoopThread->mutex) == 0);
 

@@ -11,10 +11,10 @@ int onConnectionCompleted(struct tcp_connection *tcpConnection) {
 
 int onMessage(struct buffer *input, struct tcp_connection *tcpConnection) {
     printf("get message from tcp connection %s\n", tcpConnection->name);
-    printf("%s", input->data);
+    printf("%s\n", input->data);
 
     struct buffer *output = buffer_new();
-    int size = buffer_readable_size(input);
+    buffer_append(output, "recved\0", 6);
     tcp_connection_send_buffer(tcpConnection, output);
     return 0;
 }
@@ -35,7 +35,7 @@ int main() {
     struct TCPServer *tcpServer = tcp_server_init(eventLoop, accepter,
                                                   onConnectionCompleted, onMessage,
                                                   onWriteCompleted,
-                                                  onConnectionClosed, 0);
+                                                  onConnectionClosed, 6);
     tcp_server_start(tcpServer);
     event_loop_run(eventLoop);
     return 0;
